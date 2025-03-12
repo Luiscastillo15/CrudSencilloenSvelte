@@ -1,4 +1,3 @@
-<!-- src/lib/Componentes/formProducto.svelte -->
 <script>
 	export let NuevosProductos;
 	export let editando;
@@ -7,7 +6,7 @@
 	const dispatch = createEventDispatcher();
 
 	function handleEnviar() {
-		dispatch('agregarProductos'); // Emitir el evento al padre
+		dispatch('agregarProductos');
 	}
 </script>
 
